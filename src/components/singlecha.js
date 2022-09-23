@@ -13,7 +13,7 @@ import { ChatState } from "../context/chatpro";
 import "./style.css";
 import io from "socket.io-client";
 
-const ENDPOINT = "https://ca-p.herokuapp.com/";
+const ENDPOINT = "https://cha-bae.onrender.com";
 
 var socket, selectedChatCompare;
 
