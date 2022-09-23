@@ -1,0 +1,23 @@
+
+/* ::-webkit-scrollbar{
+    width: 0px;
+} */
+  .App {
+      min-height: 100vh;
+      display: flex;
+      background: linear-gradient(-45deg, #000000, #21522b, #13611e, #000000);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
